@@ -1,0 +1,1 @@
+<img src="{{ asset('/images/education.png')}}" alt="" style="width:128px;">
