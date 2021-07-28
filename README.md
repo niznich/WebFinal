@@ -2,7 +2,7 @@
 - Code Instructions
 1. Clone repository
 ```
-git clone https://github.com/johannes-xerxes/WebFinal.git
+git clone https://github.com/johannes-xerxes/WebFinal.git <name>
 ```
 2. Open cloned project in editor
 3. Run: 
