@@ -4,25 +4,25 @@ DB_DATABASE=<database name>
 
 ```
 - Code Instructions
-1.Clone repository
+1. Clone repository
 ```
 git clone https://github.com/johannes-xerxes/WebFinal.git
 ```
-2.Open cloned project in editor
-3.Run: composer install
-4.Run: npm install
-5.Copy .env.example and rename it .env
-6.Run:
+2. Open cloned project in editor
+3. Run: composer install
+4. Run: npm install
+5. Copy .env.example and rename it .env
+6. Run:
 ```
 php artisan key:generate
 ```
-7.Create empty database
-8.Modify DB settings in .env file
+7. Create empty database
+8. Modify DB settings in .env file
 ```
 DB_DATABASE=<database name>
 
 ```
-9.Run: 
+9. Run: 
 ```
 php artisan migrate
 ```
