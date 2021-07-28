@@ -1,3 +1,18 @@
+## HOW TO ACTIVATE LARAVEL TO SIR. J
+Open cloned project in editor
+Run: composer install
+Run: npm install
+Copy .env.example and rename it .env
+Run: php artisan key:generate
+Create empty database
+Modify DB settings in .env file
+Run: php artisan migrate
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
