@@ -2,15 +2,25 @@
 1. Download and install composer
 2. Open git bash
 3. Clone the repository
+```
 git clone <link>
+```
 4. Change directory to the project folder
+`
 cd <name sa folder>
+`
 5. Run command
+`
 composer install
+`
 6. create .env file using command prompt
+`
 touch .env
+`
 7. Copy, paste, and modify that matches with your configuration
+`
 contents sa imong .env peru tanggala imong mga own stuffs
+`
 
 ## VIDEO LINK HERE
 
