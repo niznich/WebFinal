@@ -5,10 +5,17 @@
 git clone https://github.com/johannes-xerxes/WebFinal.git
 ```
 2. Open cloned project in editor
-3. Run: composer install
-4. Run: npm install
-5. Copy .env.example and rename it .env
-6. Run:
+3. Run: 
+```
+composer install
+```
+5. Run: 
+```
+npm install
+```
+
+8. Copy .env.example and rename it .env
+9. Run:
 ```
 php artisan key:generate
 ```
