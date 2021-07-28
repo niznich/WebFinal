@@ -1,8 +1,4 @@
-v## HOW TO ACTIVATE LARAVEL TO SIR. J
-```
-DB_DATABASE=<database name>
-
-```
+## HOW TO ACTIVATE LARAVEL TO SIR. J
 - Code Instructions
 1. Clone repository
 ```
