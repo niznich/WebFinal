@@ -1,27 +1,32 @@
-## HOW TO ACTIVATE LARAVEL TO SIR. J
-1. Download and install composer
-2. Open git bash
-3. Clone the repository
-```
-git clone <link>
-```
-4. Change directory to the project folder
-```
-cd <name sa folder>
-```
-5. Run command
-```
-composer install
-```
-6. create .env file using command prompt
-```
-touch .env
-```
-7. Copy, paste, and modify that matches with your configuration
+v## HOW TO ACTIVATE LARAVEL TO SIR. J
 ```
 DB_DATABASE=<database name>
 
 ```
+- Code Instructions
+1.Clone repository
+```
+git clone https://github.com/johannes-xerxes/WebFinal.git
+```
+2.Open cloned project in editor
+3.Run: composer install
+4.Run: npm install
+5.Copy .env.example and rename it .env
+6.Run:
+```
+php artisan key:generate
+```
+7.Create empty database
+8.Modify DB settings in .env file
+```
+DB_DATABASE=<database name>
+
+```
+9.Run: 
+```
+php artisan migrate
+```
+
 
 ## VIDEO LINK HERE
 
