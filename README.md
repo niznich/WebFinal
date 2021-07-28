@@ -1,13 +1,16 @@
 ## HOW TO ACTIVATE LARAVEL TO SIR. J
-- Open cloned project in editor
-- Run: composer install
-- Run: npm install
-- Copy .env.example and rename it .env
-- Run: php artisan key:generate
-- Create empty database
-- Modify DB settings in .env file
-- Run: php artisan migrate
-
+1. Download and install composer
+2. Open git bash
+3. Clone the repository
+git clone <link>
+4. Change directory to the project folder
+cd <name sa folder>
+5. Run command
+composer install
+6. create .env file using command prompt
+touch .env
+7. Copy, paste, and modify that matches with your configuration
+contents sa imong .env peru tanggala imong mga own stuffs
 
 ## VIDEO LINK HERE
 
