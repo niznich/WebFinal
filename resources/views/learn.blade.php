@@ -52,7 +52,7 @@
 			<td class="text-center">1</td>
 			<td class="text-center">Math</td>
 			<td class="text-center">
-				<x-nav-link :href="route('dashboard.mquiz')" :active="request()->routeIs('dashboard.mquiz')">
+				<x-nav-link :href="route('dashboard.mlearn')" :active="request()->routeIs('dashboard.mlearn')">
 				<button type="button" class="btn btn-primary m-2">
                         Click Here
 				</button>
@@ -65,7 +65,7 @@
 			<td class="text-center">2</td>
 			<td class="text-center">Science</td>
 			<td class="text-center">				
-			<x-nav-link :href="route('dashboard.squiz')" :active="request()->routeIs('dashboard.squiz')">
+			<x-nav-link :href="route('dashboard.slearn')" :active="request()->routeIs('dashboard.slearn')">
 			<button type="button" class="btn btn-primary m-2">
                         Click Here
 				</button>
@@ -75,7 +75,7 @@
          <tr>
 			<td class="text-center">3</td>
 			<td class="text-center">History</td>
-			<td class="text-center"><x-nav-link :href="route('dashboard.squiz')" :active="request()->routeIs('dashboard.squiz')">
+			<td class="text-center"><x-nav-link :href="route('dashboard.hlearn')" :active="request()->routeIs('dashboard.hlearn')">
 			<button type="button" class="btn btn-primary m-2">
                         Click Here
 				</button>
@@ -84,7 +84,7 @@
 		 <tr>
 			<td class="text-center">4</td>
 			<td class="text-center">Geography</td>
-			<td class="text-center"><x-nav-link :href="route('dashboard.squiz')" :active="request()->routeIs('dashboard.squiz')">
+			<td class="text-center"><x-nav-link :href="route('dashboard.glearn')" :active="request()->routeIs('dashboard.glearn')">
 			<button type="button" class="btn btn-primary m-2">
                         Click Here
 				</button>
