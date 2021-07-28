@@ -17,18 +17,14 @@
                     </x-nav-link>
                 </div>
 
-               @if (Auth::user()->hasRole('student'))
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard.myprofile')" :active="request()->routeIs('dashboard.myprofile')">
                         {{ __('My Profile') }}
                     </x-nav-link>
                 </div>
 
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.study')" :active="request()->routeIs('dashboard.study')">
-                        {{ __('Study Your lessons') }}
-                    </x-nav-link>
-                </div>
+               @if (Auth::user()->hasRole('student'))
+
 
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard.learn')" :active="request()->routeIs('dashboard.learn')">
@@ -50,13 +46,7 @@
 
                 @endif
 
-                @if (Auth::user()->hasRole('teacher'))
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.postcreate')" :active="request()->routeIs('dashboard.postcreate')">
-                        {{ __('Create a post lesson') }}
-                    </x-nav-link>
-                </div>
-                @endif
+
 
             </div>
 

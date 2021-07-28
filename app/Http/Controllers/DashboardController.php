@@ -31,11 +31,6 @@ class DashboardController extends Controller
         return view('myprofile');
     }
 
-    public function study()
-    {
-        return view('study');
-    }
-
     public function learn()
     {
         return view('learn');
@@ -49,6 +44,51 @@ class DashboardController extends Controller
     public function contactteach()
     {
         return view('contactteach');
+    }
+
+
+    //quiz
+
+    public function mquiz()
+    {
+        return view('mquiz');
+    }
+
+    public function squiz()
+    {
+        return view('squiz');
+    }
+
+    public function hquiz()
+    {
+        return view('hquiz');
+    }
+
+    public function gquiz()
+    {
+        return view('gquiz');
+    }
+
+
+    //learn
+
+    public function mlearn()
+    {
+        return view('mlearn');
+    }
+
+    public function slearn()
+    {
+        return view('slearn');
+    }
+
+    public function hlearn()
+    {
+        return view('hlearn');
+    }
+    public function glearn()
+    {
+        return view('glearn');
     }
 
 
